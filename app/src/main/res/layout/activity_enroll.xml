@@ -1,0 +1,37 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_enroll_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subject Enrollment"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp" />
+
+    <ListView
+        android:id="@+id/lv_subjects"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:dividerHeight="1dp" />
+
+    <TextView
+        android:id="@+id/tv_total_credits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Credits: 0"
+        android:padding="8dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_submit_enrollment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Enrollment" />
+</LinearLayout>

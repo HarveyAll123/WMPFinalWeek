@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "372596300417",
+    "project_id": "finalweekwmp",
+    "storage_bucket": "finalweekwmp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372596300417:android:2139d75e8481c260bb0b80",
+        "android_client_info": {
+          "package_name": "com.example.wmpfinalweek"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2NJdYRH2yasF2ay-ZFmvPjYQUjsxDBJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
